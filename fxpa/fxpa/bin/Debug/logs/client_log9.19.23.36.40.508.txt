@@ -1,0 +1,9 @@
+19/09/2014 11:36:40 PM: INFO, 
+
+ ####################################################### 
+
+ .
+19/09/2014 11:36:40 PM: INFO,  C0004  ::::: symbols   GBPUSD,        NZDUSD,        USDCAD,        USDCHF,        USDJPY,        GBPJPY,        AUDJPY,        EURJPY,        GOLD,        SILVER,.
+19/09/2014 11:36:40 PM: INFO,  C0005  ::::: server .
+19/09/2014 11:36:48 PM: INFO, Client Close.
+19/09/2014 11:36:48 PM: INFO, Application Exit.

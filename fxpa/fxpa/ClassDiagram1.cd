@@ -1,0 +1,1009 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="fxpa.AboutForm" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACQAABAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AboutForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Analyzer" Collapsed="true">
+    <Position X="1" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAIQIAAAAAAAQAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Analyzer\Analyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.AnalyzerHost" Collapsed="true">
+    <Position X="4.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGCAABIAFEAEQAAAACAAAEQAAJIEAAAAACAAAACAACA=</HashCode>
+      <FileName>Analyzer\AnalyzerHost\AnalyzerHost.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.LocalAnalyzerHost" Collapsed="true">
+    <Position X="4.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAACAAAAAAAAQAAAAAAAAABAAAAAg=</HashCode>
+      <FileName>Analyzer\AnalyzerHost\LocalAnalyzerHost.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.RemoteAnalyzerHostProxy" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAIAAAEAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Analyzer\AnalyzerHost\RemoteAnalyzerHost.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.AnalyzerSession" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIICAAAAAAGAQADAAAABABAgAGAAAAAAAACBAACCAw=</HashCode>
+      <FileName>Analyzer\AnalyzerSession\AnalyzerSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.AnalyzerSessionControl" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIABAAAAASAAAAAAAACIAUMCACEAAAEAAgABAAAEABI=</HashCode>
+      <FileName>Analyzer\AnalyzerSession\AnalyzerSessionControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ToolBarButtonStatus" Collapsed="true">
+    <Position X="26" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAggAAAABEAAQAAAAAAAAAQAAAAEACgAAIAAAEI=</HashCode>
+      <FileName>Analyzer\AnalyzerSession\AnalyzerSessionControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FxAnalyzerControl" Collapsed="true">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EpYSo8+CsOTUnsNiAuWAAd3mpeANTwMlkMFhRx6EEys=</HashCode>
+      <FileName>Analyzer\FxAnalyzerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.AnalyzerSessionIndicatorsControl" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BABQAAgAEGAgMAAQAQCICAACAwAAgBCgAAARAAIAAAA=</HashCode>
+      <FileName>Analyzer\Indicator\AnalyzerSessionIndicatorsControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.BasicIndicator" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAABCAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Analyzer\Indicator\BasicIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.BasicIndicatorUI" Collapsed="true">
+    <Position X="11.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAhAAAIAAAAAQAAAAgAAAAAEYABAAAAAAIEA=</HashCode>
+      <FileName>Analyzer\Indicator\BasicIndicatorUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.PinBarCustom" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAwAAAAAAAAAAgAAAAAAAAAAAAAAggAAAAIA=</HashCode>
+      <FileName>Analyzer\Indicator\Custom\PinBarCustom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ShadowTraceCustom" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgwIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Analyzer\Indicator\Custom\ShadowTraceCustom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ATR" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAACAAAAAAAAAAAAAAAgAAAAAAAI=</HashCode>
+      <FileName>Analyzer\Indicator\Enahnced\ATR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.EMA" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAQgAAAACAAI=</HashCode>
+      <FileName>Analyzer\Indicator\Enahnced\EMA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.MACD" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAABQMAAAAAAAAAAAAAgAIAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Analyzer\Indicator\Enahnced\MACD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.MFI" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAI=</HashCode>
+      <FileName>Analyzer\Indicator\Enahnced\MFI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.STO" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQIAAAAAAAAAAAAAAAAAgAIAAQAAAAAABKQ=</HashCode>
+      <FileName>Analyzer\Indicator\Enahnced\STO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FxpaIndicator" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgQABAAAAQAAgSAAACIAgAAAAABAAABgAAAAQAAEcAA=</HashCode>
+      <FileName>Analyzer\Indicator\FxpaIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FxpaIndicatorManager" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAoABAAAAAAAAEAABACAACQAAAAAAAAAg=</HashCode>
+      <FileName>Analyzer\Indicator\FxpaIndicatorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FxpaIndicatorUI" Collapsed="true">
+    <Position X="10.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAhAAAAAAAAAAAAAAAAAAAAEIABAAAAAAAAA=</HashCode>
+      <FileName>Analyzer\Indicator\FxpaIndicatorUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.GenericTALibIndicator" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CgQABAAAAQAAgQAAACIAgAAAAABAAABgAAAAQAAEcAA=</HashCode>
+      <FileName>Analyzer\Indicator\GenericTALibIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.GenericTALibIndicatorUI" Collapsed="true">
+    <Position X="12.75" Y="13.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAhAAAAAAAAAAAAAAAAAAAAEIABAAAAAAAAA=</HashCode>
+      <FileName>Analyzer\Indicator\GenericTALibIndicatorUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Indicator" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEABAAQIkIYAAIACBAARACSAEAAQQAQAIAAAQAAg=</HashCode>
+      <FileName>Analyzer\Indicator\Indicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.IndicatorPropertiesControl" Collapsed="true">
+    <Position X="8.5" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAEgAACAAAACEACAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Analyzer\Indicator\IndicatorPropertiesControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.IndicatorResults" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAACAAACAAJEIgAAACBCAAAAAABCCBABEAEA=</HashCode>
+      <FileName>Analyzer\Indicator\IndicatorResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.IndicatorResultSet" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAQAAAAEAAAAAAAgAABAACA=</HashCode>
+      <FileName>Analyzer\Indicator\IndicatorResultSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ProfessionalAnalyzer">
+    <Position X="0.5" Y="16.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAgAACAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Analyzer\ProfessionalAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ARBR" Collapsed="true">
+    <Position X="36.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAAAAAADAAAAAAAACAIAB0EgAEEQDAAACAAAA=</HashCode>
+      <FileName>Calculate\ARBR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.BOLL" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAACAQAAAAAACAAAAUAAAEEADAAAAAABA=</HashCode>
+      <FileName>Calculate\BOLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.CCI" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAADAAAAAAAACAAAAUAAAAEADAABAABAA=</HashCode>
+      <FileName>Calculate\CCI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.CR" Collapsed="true">
+    <Position X="38.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAACAABAAAACAgAAAAAACAIAA0EAAEAQBAAAGAAAA=</HashCode>
+      <FileName>Calculate\CR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.LWR" Collapsed="true">
+    <Position X="36.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAABAASDAAAAAAIACAAAAkAAAAFADQAAAABAI=</HashCode>
+      <FileName>Calculate\LWR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.RSI" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAiAAAAAAAACAIAA0AgBEEQBAAQAAAAE=</HashCode>
+      <FileName>Calculate\RSI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.SAR" Collapsed="true">
+    <Position X="29.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAADAAACgAAiAAEQEAQSCAMAEEAIIEMIBAgAAACQA=</HashCode>
+      <FileName>Calculate\SAR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.WR" Collapsed="true">
+    <Position X="29.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAACAIAAQAAAEEgBAAAAAAAA=</HashCode>
+      <FileName>Calculate\WR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ChartControl" Collapsed="true">
+    <Position X="31.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAAAACwAAQMgAACAAARCggBQRAAiAAIAAABAAAA=</HashCode>
+      <FileName>Chart\ChartControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ChartGrid" Collapsed="true">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAgCgggAAAAAAAAAAABAAAIAAAABCAAAAA=</HashCode>
+      <FileName>Chart\ChartGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ChartPane" Collapsed="true">
+    <Position X="6.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>p+LJFUd+AzSW8jWuUfTg3ruG4Pan/+W+so3lIWpLOH0=</HashCode>
+      <FileName>Chart\ChartPane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ChartSeriesColorSelector" Collapsed="true">
+    <Position X="36.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\ChartSeriesColorSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.CustomObject" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAAAAwQAAAAFBAAIAAAABAAAAAg=</HashCode>
+      <FileName>Chart\Custom\CustomObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.CustomObjectsManager" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AoIACAAoEACAAggABBAEBIAABRIRACIAIAAAAABSAAQ=</HashCode>
+      <FileName>Chart\Custom\CustomObjectsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.DynamicCustomObject" Collapsed="true">
+    <Position X="5.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABwAABAIhIAAIAAAAAAEAAQgAUDIhFOABAEAAQCAAI=</HashCode>
+      <FileName>Chart\Custom\DynamicCustomObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.FibonacciRetracementObject" Collapsed="true">
+    <Position X="3" Y="11.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAAgAAAAAAEAAAAAEAgBAAAAQEAAAAAAA=</HashCode>
+      <FileName>Chart\CustomObjects\FibonacciRetracementObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.LevelLinesObject" Collapsed="true">
+    <Position X="0.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAACgAgAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\CustomObjects\LevelLinesChartObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.LineObject" Collapsed="true">
+    <Position X="5.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIIAACgAgAgAAEAAAAAEAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Chart\CustomObjects\LineObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.TextObject" Collapsed="true">
+    <Position X="7.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAIAAAAgIAAAAAEAAAAAUAAgAKAAAECAAAAAA=</HashCode>
+      <FileName>Chart\CustomObjects\TextObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.GraphicsWrapper" Collapsed="true">
+    <Position X="36.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBCAoAAUQJAAgAAQCIQQgBCACAAAAgAJAEAAAAAJICA=</HashCode>
+      <FileName>Chart\GraphicsWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.MainChartPane" Collapsed="true">
+    <Position X="5.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Chart\MainChartPane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ChartSeries" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AigQYFwgYhQkQgCCsIAAAAQoiNjlAgEIIEgAAAVUAAE=</HashCode>
+      <FileName>Chart\Series\ChartSeries.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.ImagesChartSeries" Collapsed="true">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAgAAAAAAAAAAAAAAARAAAQAAAAAAAAA=</HashCode>
+      <FileName>Chart\Series\ImagesChartSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.IndicatorChartSeries" Collapsed="true">
+    <Position X="3" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgAAAASwAAAAAAAEAABAAAAAAAABAAAAQAAEA=</HashCode>
+      <FileName>Chart\Series\IndicatorChartSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.SimpleChartSeries" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QioQZFwgYAQEQwACoACAAAIokNjgCgAAIAgAAABWAAE=</HashCode>
+      <FileName>Chart\Series\SimpleChartSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.TradeChartSeries" Collapsed="true">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RMiYYV0wYsEGTyAKpAISADAoINjoAoAAoQgEAxBSYsM=</HashCode>
+      <FileName>Chart\Series\TradeChartSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.SubChartPane" Collapsed="true">
+    <Position X="7.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABJIAAAQAAgAAgAAAABkAAEgAAAEECCAAAAAQAQCAAA=</HashCode>
+      <FileName>Chart\SubChartPane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.AppConst" Collapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAoAAAAAAAIBAAAAAAIAACQUAAAAIAAAA=</HashCode>
+      <FileName>Common\AppConst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.AppContext" Collapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cBFwgCY8jIgRwCQIDkoAARAICRBAEAhKAMIAiMJACUM=</HashCode>
+      <FileName>Common\AppContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.AppSetting" Collapsed="true">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIgAACHAABIAAIAAQAAAAAgAgCgAEkEQBAAIAAEQgg=</HashCode>
+      <FileName>Common\AppSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ListEx&lt;TClass&gt;" Collapsed="true">
+    <Position X="29.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAQEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>Common\Collections\ListEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.CustomNameAttribute" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Common\CustomNameAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FxpaCommonControl" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAgAEAAIACAAAACAAAABABBAABAAAABIAI=</HashCode>
+      <FileName>Common\FxpaCommonControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.GeneralHelper" Collapsed="true">
+    <Position X="34.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAASAMBgQAhAAAQABAAQEABBkCAIAiECIFEgAE=</HashCode>
+      <FileName>Common\GeneralHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.MathHelper" Collapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAQACAAAAAAAgAAAgCAAAAAACAAAAAAAAAAEA=</HashCode>
+      <FileName>Common\Math\MathHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.SimpleLine" Collapsed="true">
+    <Position X="34.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAADAAAAAAAAAAAAAABAAAAAAAAABAAAoAEAAAA=</HashCode>
+      <FileName>Common\Math\SimpleLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ReflectionHelper" Collapsed="true">
+    <Position X="26" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAACAAAAEQAAAAAAAQAAAABAAABAAAAAAAAACg=</HashCode>
+      <FileName>Common\Reflection\ReflectionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ThreadPoolEx" Collapsed="true">
+    <Position X="24.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQIAAAgAAAARAAAAACAAIAgAAAAAAA=</HashCode>
+      <FileName>Common\ThreadEx\ThreadPoolEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.BarDataHelper" Collapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAEAAAgAAAAAAAAAAAAAAABAAAAAAAAAAEAA=</HashCode>
+      <FileName>Data\BarDataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.CandleSignal" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAgAAAAIAAAEgAAoAAAAKAAAAAAIAAgAAIAIAAQ=</HashCode>
+      <FileName>Data\CandleSignal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.DataCache" Collapsed="true">
+    <Position X="29.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBQCEAQCACDBAEQRCCJqAkhmIMiQAkDEgwTOxIIERBg=</HashCode>
+      <FileName>Data\DataCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.DataHelper" Collapsed="true">
+    <Position X="31.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBABAAAAAAAAAAAAAIAIBAAAAAAACAAAAAAQAAAAA=</HashCode>
+      <FileName>Data\DataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.DataProvider" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAJUiggyIjIQISEKogkAsHgJwKDQJcKCgCGwUCxuFs=</HashCode>
+      <FileName>Data\DataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.IntervalData" Collapsed="true">
+    <Position X="27.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAABAAIAAEEAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Data\DataService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.RealTimeData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAQEAAAAAAAABAAAAAAAACBAAAAAAAA=</HashCode>
+      <FileName>Data\DataService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="fxpa.DataService" Collapsed="true">
+    <Position X="33" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgCBAAAIAAEYIAAAQhAQAAQgAAAgEAAAEAAKAAQAE=</HashCode>
+      <FileName>Data\DataService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ProviderHelper" Collapsed="true">
+    <Position X="36.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABIACAAwACCEAAAAAkAAAAQgBAAAAAAAABFREQA=</HashCode>
+      <FileName>Data\ProviderHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ProviderService" Collapsed="true">
+    <Position X="38.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAIQBAACAAAAAAAAAAAAAAIEACAAAAAAA=</HashCode>
+      <FileName>Data\ProviderService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Signal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABwKDAAMKAgBBDwEgaAQAASiAAIEAgASAIhAEACYCgw=</HashCode>
+      <FileName>Data\Signal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="fxpa.FxpaBase" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIYAAgAEAIBQiAAAEAggAoAAABAAAAAg=</HashCode>
+      <FileName>FxpaBase\FxpaBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FxpaBaseComponent" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAQIAAAAAAAQgAAQGAgAAAAAABAAAAAg=</HashCode>
+      <FileName>FxpaBase\FxpaBaseComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.FxpaForm" Collapsed="true">
+    <Position X="29.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SgZGhrgirSggtABJBCDFEYC/ChfRUwghoopAQICVGK4=</HashCode>
+      <FileName>FxpaForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.LoadingHandler" Collapsed="true">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAABAAAQABAAQABUAAAAAAAAAACAAQAAAAACCAAAA=</HashCode>
+      <FileName>Handler\LoadingHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.MsgHandler" Collapsed="true">
+    <Position X="1.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAQQCgAAQAAkAAAAIAAAAAAIAQQAAAAEIAAAA=</HashCode>
+      <FileName>Handler\MsgHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.ProviderHandler" Collapsed="true">
+    <Position X="2.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAEAAQAAEAAAAACAAAAAACQAAAAAAAAAAA=</HashCode>
+      <FileName>Handler\ProviderHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.LoadingForm" Collapsed="true">
+    <Position X="31.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgACQAAAAgAACEAIACAEAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>LoadingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.DSWebClient" Collapsed="true">
+    <Position X="38.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAYAAAAAAAAAAKAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\DSWebClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.NetHelper" Collapsed="true">
+    <Position X="26" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAACIAAAAAAAAAAAAAAAAAAgAAIAAAAAAA=</HashCode>
+      <FileName>Net\NetHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Order" Collapsed="true">
+    <Position X="27.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAADQCDjAEAAIYWOEYBAAKBAFVAkAABgAUAgBkCAAAg=</HashCode>
+      <FileName>Order\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.OrderId" Collapsed="true">
+    <Position X="29.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAABQAAAAAAAAAEAAQ=</HashCode>
+      <FileName>Order\OrderId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.OrderInformation" Collapsed="true">
+    <Position X="31.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgARYABiACAADAAIAgAAACAAASAEABAAGBIoEhCkAAE=</HashCode>
+      <FileName>Order\OrderInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Program" Collapsed="true">
+    <Position X="34.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQ=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FxpaSource" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAQIAICAAAAQoAAWGAAAACAkIJAAICAg=</HashCode>
+      <FileName>SourceProvider\FxpaSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="fxpa.LocalOrderExecutionProvider" Collapsed="true">
+    <Position X="33" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAUBEEEQAAAIAAAARAAGCEAAAACAUCiEAECAo=</HashCode>
+      <FileName>SourceProvider\LocalOrderExecutionProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.RemoteDataProvider" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAAAEQQAAGAABCAYQiAC0QIBYAAICQAIJAAg=</HashCode>
+      <FileName>SourceProvider\RemoteDataProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.RemoteSimulationDataProvider" Collapsed="true">
+    <Position X="12.75" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAgAAQAACIAAAADAAAAAQIEACAAAgEAAIAA=</HashCode>
+      <FileName>SourceProvider\RemoteSimulationDataProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="fxpa.CustomPropertiesControl" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IkAQAgArACBIAAAQAAGEAAACEAAAAAQAIAAACEBAAAA=</HashCode>
+      <FileName>UI\CustomPropertiesControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.DOATransparentLabel" Collapsed="true">
+    <Position X="34.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CASJkQSIIWAAAAAAAADAwACGgACCIAAYCAgEAACDIoA=</HashCode>
+      <FileName>UI\DOATransparentLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.HostingForm" Collapsed="true">
+    <Position X="38.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQUACCABAAIAACAAAACAAAAgAAAAAAAAAABAAA=</HashCode>
+      <FileName>UI\HostingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ManagedTreeView" Collapsed="true">
+    <Position X="38.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAQACAAAAAAAAEAAAAAAAACAAAABAAAAAA=</HashCode>
+      <FileName>UI\ManagedTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.DoubleBufferListView" Collapsed="true">
+    <Position X="36.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\ManagedTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.PenControl" Collapsed="true">
+    <Position X="33" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAACAACBAGAAiBKAACAAAAAAkAAAAJAAAAAAA=</HashCode>
+      <FileName>UI\PenControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.AppUtil" Collapsed="true">
+    <Position X="34.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAEBAAAAAgAkBAAiAIABAACAQQQAAAAgAAQU=</HashCode>
+      <FileName>Util\AppUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FileUtil" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAkAEAAAAAAAQAEAAAAAAAABACAAAAAAAQAEAA=</HashCode>
+      <FileName>Util\FileUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FileWorker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAQAAAAAyAEAAAAAgEAAEAAAIAIAAAAAAAAAABAA=</HashCode>
+      <FileName>Util\FileWorker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="fxpa.LogUtil" Collapsed="true">
+    <Position X="34.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQEJAgBADQAAEAAAACBAAQQAAAMAAAAABECAAgA=</HashCode>
+      <FileName>Util\LogUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.SysUtil" Collapsed="true">
+    <Position X="38.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAABAABAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\SysUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.ZipUtil" Collapsed="true">
+    <Position X="31.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAgEAAEAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\ZipUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Chart.ChartPane" Collapsed="true">
+    <Position X="34.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAABQAAAAAAAAAAAAAIAII=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Chart.SubChartPane" Collapsed="true">
+    <Position X="36.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAEAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Chart.Custom.CustomObjectControl" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Custom\CustomObjectControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Chart.Series.TradeChartSeries" Collapsed="true">
+    <Position X="27.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAQAAAAACEABEAAAAQAAEQAEEAAQCEBAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Emulator.BaseEngine" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Emulator\BaseEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Properties.Resources" Collapsed="true">
+    <Position X="27.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mIBAACQyEDMBA9kJwoRJEAIRSwUUBwCCAPAhCSBkkZ4=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.Properties.Settings" Collapsed="true">
+    <Position X="31.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAEEAAAIAAAAAABAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fxpa.FxAnalyzerHostControl">
+    <Position X="11" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAQAEAACAAAACAAAAAAAAAAAABAAIAAI=</HashCode>
+      <FileName>Analyzer\FxAnalyzerHostControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="fxpa.SessionInfo" Collapsed="true">
+    <Position X="26" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQCAAAgIBACAAAAIAABAAAAAACAAAQDAE=</HashCode>
+      <FileName>Analyzer\AnalyzerSession\SessionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="fxpa.BarData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BOgQGQB0qQiAZR0kQgAQYAMAkA9r5JQOaApIAACIMBg=</HashCode>
+      <FileName>Data\BarData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="fxpa.IAnalyzerSessionManager" Collapsed="true">
+    <Position X="24.25" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAEAAAAAAAACAAAAAAABAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Analyzer\AnalyzerSession\IAnalyzerSessionManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.ISessionInfoManager" Collapsed="true">
+    <Position X="24.25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Analyzer\AnalyzerSession\ISessionInfoManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.ITimeControl" Collapsed="true">
+    <Position X="26" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAIAAAABAAAAAAAAACAAAgEAAAAA=</HashCode>
+      <FileName>Common\TimeControl\ITimeControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.IFxpaBaseCompoent" Collapsed="true">
+    <Position X="31.25" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAQAAAQAAAAAAAAABAAAAAg=</HashCode>
+      <FileName>FxpaBase\IFxpaBaseCompoent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.IHandler" Collapsed="true">
+    <Position X="33" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAQQCAAAQAAkAAAAIAAAAAAAAQQAAAAAIAAAA=</HashCode>
+      <FileName>Net\IMsgHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.IDataProvider" Collapsed="true">
+    <Position X="26" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAQAACAAACAQQCAAUQIBYAAIAAAAAAAg=</HashCode>
+      <FileName>SourceProvider\IDataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.IOrderExecutionProvider" Collapsed="true">
+    <Position X="36.5" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAUBAEAQAAAAAAAAAAAGAAAAAAAAAACAAACAg=</HashCode>
+      <FileName>SourceProvider\IOrderExecutionProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.IManagedTreeNode" Collapsed="true">
+    <Position X="34.75" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAgAAAAAEAAA=</HashCode>
+      <FileName>UI\IManagedTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.IPropertyContainer" Collapsed="true">
+    <Position X="38.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAhAAAAAAAAAAAAAAgAAAAAEIAAAAAAAAAAA=</HashCode>
+      <FileName>UI\IPropertyContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.IFileWorker" Collapsed="true">
+    <Position X="29.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAQAAAAASAEAAAAAgAAAEAAAIAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Util\IFileWorker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="fxpa.Emulator.IEngine" Collapsed="true">
+    <Position X="27.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Emulator\IEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="fxpa.OperationalStateEnum" Collapsed="true">
+    <Position X="31.25" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAACAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AppConst.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.DownloadStatus" Collapsed="true">
+    <Position X="27.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAQAAIAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Common\AppConst.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.DataInitStatus" Collapsed="true">
+    <Position X="26" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AppConst.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.Symbol" Collapsed="true">
+    <Position X="38.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAACAAQBAAAAAAAAAAAQEAAABAAAQBAAAABAACABA=</HashCode>
+      <FileName>Common\AppConst.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.BaseCurrency" Collapsed="true">
+    <Position X="24.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAABAAAEQEAAAABAAAAAAAAAEg=</HashCode>
+      <FileName>Common\AppConst.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.Interval" Collapsed="true">
+    <Position X="29.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gA4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEgAAAAA=</HashCode>
+      <FileName>Common\AppConst.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.PaymentType" Collapsed="true">
+    <Position X="34.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAgAAAAAAAAABAAAAAAAAEAAAAAAAAAAI=</HashCode>
+      <FileName>Common\AppConst.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.Protocol" Collapsed="true">
+    <Position X="36.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sAcAAKjVk3UAAAAAIACAAAAAEACAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>Handler\MsgHandler.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.OrderTypeEnum" Collapsed="true">
+    <Position X="33" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgACAyAAAAA=</HashCode>
+      <FileName>Order\OrderTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.UpdateType" Collapsed="true">
+    <Position X="24.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAEAAQAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SourceProvider\IDataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fxpa.Win32Stuff" Collapsed="true">
+    <Position X="26" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAIAAACBCABAAAAAABAAGAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\SysUtil.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="fxpa.MsgUpdatedDelegate" Collapsed="true">
+    <Position X="26" Y="13.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\IMsgHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="fxpa.ValuesUpdatedDelegate" Collapsed="true">
+    <Position X="27.75" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAIAAAAAQAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SourceProvider\IDataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="fxpa.ModifiedDelegate" Collapsed="true">
+    <Position X="24.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\IManagedTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Calibri" Size="9.75" />
+</ClassDiagram>

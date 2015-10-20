@@ -1,0 +1,7 @@
+19/09/2014 9:03:09 PM: INFO, 
+
+ ####################################################### 
+
+ .
+19/09/2014 9:03:09 PM: INFO,  C0004  ::::: symbols   GBPUSD,        NZDUSD,        USDCAD,        USDCHF,        USDJPY,        GBPJPY,        AUDJPY,        EURJPY,        GOLD,        SILVER,.
+19/09/2014 9:03:09 PM: INFO,  C0005  ::::: server .

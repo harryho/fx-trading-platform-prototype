@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="fxpa.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Logs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\..\..\..\..\Logs</Value>
+    </Setting>
+    <Setting Name="FxpaUriAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.forexprofessionalanalyzer.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

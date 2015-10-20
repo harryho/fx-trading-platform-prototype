@@ -1,0 +1,547 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85985191-4247-41EF-BE4E-4E65B0E3925D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>fxpa</RootNamespace>
+    <AssemblyName>fxpa</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>fxpa-app.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>fxpa.Program</StartupObject>
+    <TargetFrameworkSubset>Full</TargetFrameworkSubset>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.1.271, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TA-Lib-Core, Version=1.0.3147.41271, Culture=neutral, PublicKeyToken=fdb2a6b268f56aa5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\TA-Lib-Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analyzer\FxAnalyzerHostControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Analyzer\FxAnalyzerHostControl.Designer.cs">
+      <DependentUpon>FxAnalyzerHostControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analyzer\Indicator\FxpaIndicatorUI.cs" />
+    <Compile Include="Analyzer\Indicator\FxpaIndicator.cs" />
+    <Compile Include="Calculate\ARBR.cs" />
+    <Compile Include="Calculate\BOLL.cs" />
+    <Compile Include="Calculate\FxRSI.cs" />
+    <Compile Include="Calculate\CR.cs" />
+    <Compile Include="Calculate\RSI.cs" />
+    <Compile Include="Calculate\SAR.cs" />
+    <Compile Include="Calculate\CCI.cs" />
+    <Compile Include="Calculate\LWR.cs" />
+    <Compile Include="Calculate\WR.cs" />
+    <Compile Include="Chart\ChartPane1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChartPane.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\Series\IndicatorChartSeries.cs" />
+    <Compile Include="Common\AppContext.cs" />
+    <Compile Include="Common\AppSetting.cs" />
+    <Compile Include="Common\CustomNameAttribute.cs" />
+    <Compile Include="Chart\CustomObjects\FibonacciRetracementObject.cs" />
+    <Compile Include="Chart\CustomObjects\LevelLinesChartObject.cs" />
+    <Compile Include="Chart\CustomObjects\LineObject.cs" />
+    <Compile Include="Chart\CustomObjects\OrdersMarkerObject.cs" />
+    <Compile Include="Chart\CustomObjects\TextObject.cs" />
+    <Compile Include="Chart\Custom\CustomObject.cs" />
+    <Compile Include="Chart\Custom\CustomObjectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Chart\Custom\CustomObjectControl.Designer.cs">
+      <DependentUpon>CustomObjectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\Custom\CustomObjectsManager.cs" />
+    <Compile Include="Chart\Custom\DynamicCustomObject.cs" />
+    <Compile Include="Chart\Series\ChartSeries.cs" />
+    <Compile Include="Chart\Series\ImagesChartSeries.cs" />
+    <Compile Include="Chart\Series\SimpleChartSeries.cs" />
+    <Compile Include="Chart\Series\TradeChartSeries.cs" />
+    <Compile Include="Chart\Series\TradeChartSeries.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TradeChartSeries.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\ChartControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Chart\ChartControl.Designer.cs">
+      <DependentUpon>ChartControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\ChartGrid.cs" />
+    <Compile Include="Chart\ChartPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Chart\ChartPane.Designer.cs">
+      <DependentUpon>ChartPane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\ChartSeriesColorSelector.cs" />
+    <Compile Include="Chart\GraphicsWrapper.cs" />
+    <Compile Include="Chart\MainChartPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Chart\SubChartPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Chart\SubChartPane.Designer.cs">
+      <DependentUpon>SubChartPane.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Common\Collections\ListEx.cs" />
+    <Compile Include="Common\AppConst.cs" />
+    <Compile Include="Common\GeneralHelper.cs" />
+    <Compile Include="Data\BarData.cs" />
+    <Compile Include="Data\BarDataHelper.cs" />
+    <Compile Include="Data\CandleSignal.cs" />
+    <Compile Include="Data\DataCache.cs" />
+    <Compile Include="Data\DataHelper.cs" />
+    <Compile Include="Data\DataProvider.cs" />
+    <Compile Include="Data\DataService.cs" />
+    <Compile Include="Data\ProviderHelper.cs" />
+    <Compile Include="Data\Signal.cs" />
+    <Compile Include="Analyzer\AnalyzerHost\AnalyzerHost.cs" />
+    <Compile Include="Analyzer\AnalyzerHost\LocalAnalyzerHost.cs" />
+    <Compile Include="Analyzer\AnalyzerHost\RemoteAnalyzerHost.cs" />
+    <Compile Include="Analyzer\AnalyzerSession\AnalyzerSession.cs" />
+    <Compile Include="Analyzer\AnalyzerSession\IAnalyzerSessionManager.cs" />
+    <Compile Include="Analyzer\AnalyzerSession\ISessionInfoManager.cs" />
+    <Compile Include="Analyzer\AnalyzerSession\SessionInfo.cs" />
+    <Compile Include="Analyzer\Analyzer.cs" />
+    <Compile Include="Analyzer\ProfessionalAnalyzer.cs" />
+    <Compile Include="Analyzer\Indicator\Custom\PinBarCustom.cs" />
+    <Compile Include="Analyzer\Indicator\Custom\ShadowTraceCustom.cs" />
+    <Compile Include="Analyzer\Indicator\Enahnced\ATR.cs" />
+    <Compile Include="Analyzer\Indicator\Enahnced\EMA.cs" />
+    <Compile Include="Analyzer\Indicator\Enahnced\MACD.cs" />
+    <Compile Include="Analyzer\Indicator\Enahnced\MFI.cs" />
+    <Compile Include="Analyzer\Indicator\Enahnced\RVI.cs" />
+    <Compile Include="Analyzer\Indicator\Enahnced\STO.cs" />
+    <Compile Include="Analyzer\Indicator\Enahnced\TEMA.cs" />
+    <Compile Include="Analyzer\Indicator\GenericTALibIndicator.cs" />
+    <Compile Include="Analyzer\Indicator\GenericTALibIndicatorUI.cs" />
+    <Compile Include="Analyzer\Indicator\Indicator.cs" />
+    <Compile Include="Analyzer\Indicator\FxpaIndicatorManager.cs" />
+    <Compile Include="Analyzer\Indicator\IndicatorPropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Analyzer\Indicator\IndicatorPropertiesControl.Designer.cs">
+      <DependentUpon>IndicatorPropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analyzer\Indicator\IndicatorResults.cs" />
+    <Compile Include="Analyzer\Indicator\IndicatorResultSet.cs" />
+    <Compile Include="Analyzer\Indicator\BasicIndicator.cs" />
+    <Compile Include="Analyzer\Indicator\BasicIndicatorUI.cs" />
+    <Compile Include="Common\Math\MathHelper.cs" />
+    <Compile Include="Common\Math\SimpleLine.cs" />
+    <Compile Include="Emulator\BaseEngine.cs" />
+    <Compile Include="Emulator\IEngine.cs" />
+    <Compile Include="Net\DSWebClient.cs" />
+    <Compile Include="Data\ProviderService.cs" />
+    <Compile Include="Handler\LoadingHandler.cs" />
+    <Compile Include="Handler\ProviderHandler.cs" />
+    <Compile Include="Net\IMsgHandler.cs" />
+    <Compile Include="Handler\MsgHandler.cs" />
+    <Compile Include="Net\NetHelper.cs" />
+    <Compile Include="SourceProvider\FxpaSource.cs" />
+    <Compile Include="Common\TimeControl\ITimeControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\DOATransparentLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\DOATransparentLabel.Designer.cs">
+      <DependentUpon>DOATransparentLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HeaderRenderer.cs" />
+    <Compile Include="UI\IManagedTreeNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\ManagedTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\PenControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\PenControl.Designer.cs">
+      <DependentUpon>PenControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\QuickenToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\TitleStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Util\AppUtil.cs" />
+    <Compile Include="Util\FileWorker.cs" />
+    <Compile Include="Util\IFileWorker.cs" />
+    <Compile Include="Util\LogUtil.cs" />
+    <Compile Include="Util\SysUtil.cs" />
+    <Compile Include="Util\FileUtil.cs" />
+    <Compile Include="Util\ZipUtil.cs" />
+    <Compile Include="FxpaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FxpaForm.Designer.cs">
+      <DependentUpon>FxpaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order\Order.cs" />
+    <Compile Include="Order\OrderId.cs" />
+    <Compile Include="Order\OrderInformation.cs" />
+    <Compile Include="Order\OrderTypeEnum.cs" />
+    <Compile Include="FxpaBase\IFxpaBaseCompoent.cs" />
+    <Compile Include="FxpaBase\FxpaBase.cs" />
+    <Compile Include="FxpaBase\FxpaBaseComponent.cs" />
+    <Compile Include="SourceProvider\IDataProvider.cs" />
+    <Compile Include="SourceProvider\IOrderExecutionProvider.cs" />
+    <Compile Include="SourceProvider\LocalOrderExecutionProvider.cs" />
+    <Compile Include="SourceProvider\RemoteDataProvider.cs" />
+    <Compile Include="SourceProvider\RemoteSimulationDataProvider.cs" />
+    <Compile Include="Common\Reflection\ReflectionHelper.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Analyzer\Indicator\AnalyzerSessionIndicatorsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Analyzer\Indicator\AnalyzerSessionIndicatorsControl.Designer.cs">
+      <DependentUpon>AnalyzerSessionIndicatorsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analyzer\AnalyzerSession\AnalyzerSessionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Analyzer\AnalyzerSession\AnalyzerSessionControl.Designer.cs">
+      <DependentUpon>AnalyzerSessionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analyzer\FxAnalyzerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Analyzer\FxAnalyzerControl.Designer.cs">
+      <DependentUpon>FxAnalyzerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ThreadEx\ThreadPoolEx.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Analyzer\FxAnalyzerHostControl.resx">
+      <DependentUpon>FxAnalyzerHostControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\Custom\CustomObjectControl.resx">
+      <DependentUpon>CustomObjectControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\Series\TradeChartSeries.resx">
+      <DependentUpon>TradeChartSeries.cs</DependentUpon>
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TradeChartSeries.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\ChartControl.resx">
+      <DependentUpon>ChartControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\ChartPane.resx">
+      <DependentUpon>ChartPane.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChartPane1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\SubChartPane.resx">
+      <DependentUpon>SubChartPane.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SubChartPane.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analyzer\Indicator\IndicatorPropertiesControl.resx">
+      <DependentUpon>IndicatorPropertiesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DOATransparentLabel.resx">
+      <DependentUpon>DOATransparentLabel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ManagedTreeView.resx">
+      <DependentUpon>ManagedTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PenControl.resx">
+      <DependentUpon>PenControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FxpaForm.resx">
+      <DependentUpon>FxpaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analyzer\Indicator\AnalyzerSessionIndicatorsControl.resx">
+      <DependentUpon>AnalyzerSessionIndicatorsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analyzer\AnalyzerSession\AnalyzerSessionControl.resx">
+      <DependentUpon>AnalyzerSessionControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analyzer\FxAnalyzerControl.resx">
+      <DependentUpon>FxAnalyzerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FxpaCommonControl.resx">
+      <DependentUpon>FxpaCommonControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CustomPropertiesControl.resx">
+      <DependentUpon>CustomPropertiesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HostingForm.resx">
+      <DependentUpon>HostingForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForm.resx">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Common\FxpaCommonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\FxpaCommonControl.Designer.cs">
+      <DependentUpon>FxpaCommonControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CustomPropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\CustomPropertiesControl.Designer.cs">
+      <DependentUpon>CustomPropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HostingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HostingForm.Designer.cs">
+      <DependentUpon>HostingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\IPropertyContainer.cs" />
+    <Compile Include="LoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForm.designer.cs">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="column-chart.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\chimes.wav" />
+    <None Include="Resources\Blip.wav" />
+    <Content Include="fxpa-app.ico" />
+    <None Include="Resources\coins.png" />
+    <None Include="Resources\arrow_down.png" />
+    <None Include="Resources\arrow_up.png" />
+    <None Include="Resources\about.jpg" />
+    <Content Include="Resources\arrow_in.png" />
+    <None Include="Resources\arrow_in1.png" />
+    <Content Include="Resources\cancel.png" />
+    <None Include="Resources\cancel1.png" />
+    <None Include="Resources\coins2.png" />
+    <None Include="Resources\coins3.png" />
+    <Content Include="Resources\dataupdate.bmp" />
+    <None Include="Resources\dd.png" />
+    <Content Include="Resources\flag_blue.png" />
+    <None Include="Resources\flag_blue1.png" />
+    <None Include="Resources\fxpa-app.ico" />
+    <Content Include="Resources\info.gif" />
+    <Content Include="Resources\kuf.png" />
+    <None Include="Resources\kuf1.png" />
+    <Content Include="Resources\lock_edit.png" />
+    <None Include="Resources\lock_edit1.png" />
+    <Content Include="Resources\magifier_zoom_out.png" />
+    <None Include="Resources\magifier_zoom_out1.png" />
+    <Content Include="Resources\magnifier_zoom_in.png" />
+    <None Include="Resources\magnifier_zoom_in1.png" />
+    <None Include="Resources\progress_bar.gif" />
+    <None Include="Resources\progress.jpg" />
+    <Content Include="Resources\sound.png" />
+    <None Include="Resources\sound_none.png" />
+    <None Include="Resources\sound1.png" />
+    <None Include="Resources\vv.png" />
+    <None Include="Resources\tt.png" />
+    <None Include="Resources\sound.jpg" />
+    <None Include="Resources\sound_1.png" />
+    <None Include="Resources\star7.gif" />
+    <None Include="Resources\star4.gif" />
+    <None Include="Resources\flag.jpg" />
+    <None Include="Resources\imageInfo.ico" />
+    <None Include="Resources\imageDownBig.bmp" />
+    <None Include="Resources\imageUpBig.bmp" />
+    <None Include="Resources\arrow_up_green1.png" />
+    <None Include="Resources\address_book2.png" />
+    <None Include="Resources\arrow_up_green.png" />
+    <None Include="Resources\arrow_down_red.png" />
+    <None Include="Resources\document_exchange.png" />
+    <None Include="Resources\arrow_down_red.24.png" />
+    <None Include="Resources\currency_dollar1.png" />
+    <None Include="Resources\currency_dollar_grayscale.png" />
+    <None Include="Resources\currency_dollar.png" />
+    <None Include="Resources\CHART.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
