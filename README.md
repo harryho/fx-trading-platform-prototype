@@ -1,4 +1,4 @@
-# demo-fx-trading-platform-prototype
+# fx-trading-platform-prototype
 FXPA is a demo app for FX trading and analytic. It was built on .net 3. Support is no longer available.
 
 FXPA prototype snapshot 1 
